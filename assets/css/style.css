@@ -1,0 +1,14 @@
+body{
+    font-family: 'Press Start 2P';
+    background-image: url(../images/69145196_1378505058973485_1529686344228135020_n.jpg);
+}
+
+.section-title{
+    font-size: 200%;
+    color: white;
+}
+.main-section-title{
+    color: white;
+    font-size: 300%;
+    text-align: center;
+}
