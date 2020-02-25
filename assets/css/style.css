@@ -1,6 +1,13 @@
 body{
     font-family: 'Press Start 2P';
     background-image: url(../images/69145196_1378505058973485_1529686344228135020_n.jpg);
+    background-position:center;
+    background-attachment: fixed;
+}
+img{
+    height: 100px;
+    width: 150px;
+    border-radius: 10px;
 }
 
 .section-title{
@@ -12,3 +19,27 @@ body{
     font-size: 300%;
     text-align: center;
 }
+#main-game-section{
+    text-align: center;
+    margin-top: 50px;
+}
+.character{
+    display: inline-block;
+    border-style: solid;
+    border-color: purple;
+    border-width: 3px;
+    cursor: pointer;
+    background-color: plum;
+}
+.character-image{
+    padding-right: 16px;
+    padding-left: 16px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+.message-render {
+    text-align: center;
+    color: white;
+}
+.character-name{ text-align: center; }
+.character-health{ text-align: center }
